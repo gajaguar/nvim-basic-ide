@@ -45,3 +45,15 @@ keymap("n", "<leader>w", ":lua vim.wo.wrap = not vim.wo.wrap<CR>", opts)
 
 
 vim.api.nvim_set_keymap('t', '<C-;>', '<C-\\><C-n>', opts)
+
+-- Custom
+keymap("i", "M-h", "<Left>", opts)
+keymap("i", "M-j", "<Down>", opts)
+keymap("i", "M-k", "<Up>", opts)
+keymap("i", "M-l", "<Right>", opts)
+keymap("n", "<leader>c", "ciw", opts)
+keymap("n", "<leader>f", "/<C-r><C-w><CR>", opts)
+keymap("n", "<leader>Q", ":q!<CR>", opts)
+keymap("n", "<leader>q", ":q<CR>", opts)
+keymap("n", "<leader>s", ":w<CR>", opts)
+keymap("n", "<leader>yy", "yiw", opts)
