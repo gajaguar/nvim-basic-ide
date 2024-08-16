@@ -28,6 +28,7 @@ function M.config()
       entry_prefix = "   ",
       initial_mode = "insert",
       selection_strategy = "reset",
+      layout_strategy = "vertical",
       path_display = { "smart" },
       color_devicons = true,
       vimgrep_arguments = {
