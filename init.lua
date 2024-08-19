@@ -1,6 +1,6 @@
 if (vim.g.vscode) then
-    require "vscode.options"
-    require "vscode.keymaps"
+    require "code.options"
+    require "code.keymaps"
 else
     require "user.launch"
     require "user.options"
